@@ -37,8 +37,6 @@ const isValidHex = (hex) => {
     return strippedHex.length === 3 || strippedHex.length === 6;
 }
 
-
-
 const convertHexToRGB = (hex) => {
   if(!isValidHex(hex)) return null;
   
